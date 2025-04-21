@@ -1,4 +1,4 @@
-modules = ["python-3.11"]
+modules = ["python-3.11", "c"]
 
 [nix]
 channel = "stable-24_05"
@@ -16,6 +16,10 @@ author = "agent"
 task = "workflow.run"
 args = "Sensor Node"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Sensor Node Build"
+
 [[workflows.workflow]]
 name = "Sensor Node"
 author = "agent"
@@ -29,6 +33,21 @@ task = "packager.installForAll"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd sensor_node && mkdir -p build && cd build && cmake .. && make -j4 && ./sensor_node"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Sensor Node Build"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd sensor_node && mkdir -p build && cd build && cmake .. && make"
 waitForPort = 5000
 
 [deployment]

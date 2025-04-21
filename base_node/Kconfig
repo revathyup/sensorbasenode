@@ -1,0 +1,22 @@
+# Base Node application Kconfig file
+
+source "Kconfig.zephyr"
+
+# Custom Kconfig options for sensor node
+config SENSOR_NODE_UART_DEVICE
+	string "UART Device for sensor node communication"
+	default "UART_0"
+	help
+	  UART device to use for communication with the sensor node.
+
+config CONSOLE_UART_DEVICE
+	string "UART Device for console output"
+	default "UART_1"
+	help
+	  UART device to use for console output.
+
+config INTERRUPT_PIN
+	int "Interrupt pin number"
+	default 2
+	help
+	  GPIO pin number used for interrupt signal from sensor node.
