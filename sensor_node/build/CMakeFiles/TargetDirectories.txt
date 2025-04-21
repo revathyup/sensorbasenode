@@ -1,0 +1,3 @@
+/home/runner/workspace/sensor_node/build/CMakeFiles/sensor_node.dir
+/home/runner/workspace/sensor_node/build/CMakeFiles/edit_cache.dir
+/home/runner/workspace/sensor_node/build/CMakeFiles/rebuild_cache.dir
