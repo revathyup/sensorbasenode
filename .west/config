@@ -1,0 +1,4 @@
+[manifest]
+path = sensor_node_zephyr
+file = west.yml
+

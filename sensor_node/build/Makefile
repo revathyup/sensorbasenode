@@ -129,77 +129,1358 @@ sensor_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/build
 .PHONY : sensor_node/fast
 
-main.o: main.c.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named picotoolForceReconfigure
+
+# Build rule for target.
+picotoolForceReconfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
+.PHONY : picotoolForceReconfigure
+
+# fast build rule for target.
+picotoolForceReconfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
+.PHONY : picotoolForceReconfigure/fast
+
+#=============================================================================
+# Target rules for targets named picotoolBuild
+
+# Build rule for target.
+picotoolBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
+.PHONY : picotoolBuild
+
+# fast build rule for target.
+picotoolBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
+.PHONY : picotoolBuild/fast
+
+#=============================================================================
+# Target rules for targets named bs2_default
+
+# Build rule for target.
+bs2_default: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bs2_default
+.PHONY : bs2_default
+
+# fast build rule for target.
+bs2_default/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
+.PHONY : bs2_default/fast
+
+#=============================================================================
+# Target rules for targets named bs2_default_bin
+
+# Build rule for target.
+bs2_default_bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bs2_default_bin
+.PHONY : bs2_default_bin
+
+# fast build rule for target.
+bs2_default_bin/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
+.PHONY : bs2_default_bin/fast
+
+#=============================================================================
+# Target rules for targets named bs2_default_library
+
+# Build rule for target.
+bs2_default_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bs2_default_library
+.PHONY : bs2_default_library
+
+# fast build rule for target.
+bs2_default_library/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+.PHONY : bs2_default_library/fast
+
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.o: home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/main.c.o
-.PHONY : main.c.o
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.i: home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/main.c.i
-.PHONY : main.c.i
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.s: home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/main.c.s
-.PHONY : main.c.s
+home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s
 
-sensors.o: sensors.c.o
-.PHONY : sensors.o
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.o: home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.o
 
 # target to build an object file
-sensors.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensors.c.o
-.PHONY : sensors.c.o
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o
 
-sensors.i: sensors.c.i
-.PHONY : sensors.i
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.i: home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-sensors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensors.c.i
-.PHONY : sensors.c.i
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-sensors.s: sensors.c.s
-.PHONY : sensors.s
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.s: home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-sensors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensors.c.s
-.PHONY : sensors.c.s
+home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-uart_protocol.o: uart_protocol.c.o
-.PHONY : uart_protocol.o
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.o: home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.o
 
 # target to build an object file
-uart_protocol.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/uart_protocol.c.o
-.PHONY : uart_protocol.c.o
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o
 
-uart_protocol.i: uart_protocol.c.i
-.PHONY : uart_protocol.i
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.i: home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-uart_protocol.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/uart_protocol.c.i
-.PHONY : uart_protocol.c.i
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-uart_protocol.s: uart_protocol.c.s
-.PHONY : uart_protocol.s
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.s: home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-uart_protocol.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/uart_protocol.c.s
-.PHONY : uart_protocol.c.s
+home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.o: home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.i: home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.s: home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.o: home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.i: home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.s: home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_time/time.o: home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_time/time.i: home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_time/time.s: home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.o: home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.i: home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.s: home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.o: home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.i: home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.s: home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.o: home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.i: home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.s: home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s
+
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.o: home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o
+
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.i: home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i
+
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.s: home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s
+
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.o: home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o
+
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.i: home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.s: home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+
+# target to build an object file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+mcp9700.o: mcp9700.c.o
+.PHONY : mcp9700.o
+
+# target to build an object file
+mcp9700.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/mcp9700.c.o
+.PHONY : mcp9700.c.o
+
+mcp9700.i: mcp9700.c.i
+.PHONY : mcp9700.i
+
+# target to preprocess a source file
+mcp9700.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/mcp9700.c.i
+.PHONY : mcp9700.c.i
+
+mcp9700.s: mcp9700.c.s
+.PHONY : mcp9700.s
+
+# target to generate assembly for a file
+mcp9700.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/mcp9700.c.s
+.PHONY : mcp9700.c.s
+
+sensor_node.o: sensor_node.c.o
+.PHONY : sensor_node.o
+
+# target to build an object file
+sensor_node.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensor_node.c.o
+.PHONY : sensor_node.c.o
+
+sensor_node.i: sensor_node.c.i
+.PHONY : sensor_node.i
+
+# target to preprocess a source file
+sensor_node.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensor_node.c.i
+.PHONY : sensor_node.c.i
+
+sensor_node.s: sensor_node.c.s
+.PHONY : sensor_node.s
+
+# target to generate assembly for a file
+sensor_node.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/sensor_node.c.s
+.PHONY : sensor_node.c.s
+
+stemma_soil.o: stemma_soil.c.o
+.PHONY : stemma_soil.o
+
+# target to build an object file
+stemma_soil.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/stemma_soil.c.o
+.PHONY : stemma_soil.c.o
+
+stemma_soil.i: stemma_soil.c.i
+.PHONY : stemma_soil.i
+
+# target to preprocess a source file
+stemma_soil.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/stemma_soil.c.i
+.PHONY : stemma_soil.c.i
+
+stemma_soil.s: stemma_soil.c.s
+.PHONY : stemma_soil.s
+
+# target to generate assembly for a file
+stemma_soil.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/stemma_soil.c.s
+.PHONY : stemma_soil.c.s
+
+tsl2591.o: tsl2591.c.o
+.PHONY : tsl2591.o
+
+# target to build an object file
+tsl2591.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/tsl2591.c.o
+.PHONY : tsl2591.c.o
+
+tsl2591.i: tsl2591.c.i
+.PHONY : tsl2591.i
+
+# target to preprocess a source file
+tsl2591.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/tsl2591.c.i
+.PHONY : tsl2591.c.i
+
+tsl2591.s: tsl2591.c.s
+.PHONY : tsl2591.s
+
+# target to generate assembly for a file
+tsl2591.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_node.dir/build.make CMakeFiles/sensor_node.dir/tsl2591.c.s
+.PHONY : tsl2591.c.s
 
 # Help Target
 help:
@@ -209,16 +1490,173 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bs2_default_bin"
+	@echo "... picotoolBuild"
+	@echo "... picotoolForceReconfigure"
+	@echo "... bs2_default"
+	@echo "... bs2_default_library"
 	@echo "... sensor_node"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... sensors.o"
-	@echo "... sensors.i"
-	@echo "... sensors.s"
-	@echo "... uart_protocol.o"
-	@echo "... uart_protocol.i"
-	@echo "... uart_protocol.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/time.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/runner/workspace/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... mcp9700.o"
+	@echo "... mcp9700.i"
+	@echo "... mcp9700.s"
+	@echo "... sensor_node.o"
+	@echo "... sensor_node.i"
+	@echo "... sensor_node.s"
+	@echo "... stemma_soil.o"
+	@echo "... stemma_soil.i"
+	@echo "... stemma_soil.s"
+	@echo "... tsl2591.o"
+	@echo "... tsl2591.i"
+	@echo "... tsl2591.s"
 .PHONY : help
 
 

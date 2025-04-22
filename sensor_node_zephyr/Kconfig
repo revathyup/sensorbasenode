@@ -1,0 +1,72 @@
+# Kconfig - Smart Gardening System Sensor Node configuration
+
+# Copyright (c) 2022 Smart Gardening System Project
+# SPDX-License-Identifier: Apache-2.0
+
+mainmenu "Smart Gardening System Sensor Node Configuration"
+
+menu "Sensor Configuration"
+
+config SENSOR_NODE_LIGHT_THRESHOLD_LOW
+	int "Default light low threshold (in lux x 100)"
+	default 5000
+	help
+	  Default low threshold for light sensor in lux x 100.
+	  This threshold triggers a low light interrupt if the measured
+	  value falls below it.
+
+config SENSOR_NODE_LIGHT_THRESHOLD_HIGH
+	int "Default light high threshold (in lux x 100)"
+	default 50000
+	help
+	  Default high threshold for light sensor in lux x 100.
+	  This threshold triggers a high light interrupt if the measured
+	  value rises above it.
+
+config SENSOR_NODE_TEMP_THRESHOLD_HIGH
+	int "Default temperature high threshold (in Celsius x 100)"
+	default 3000
+	help
+	  Default high threshold for temperature sensor in Celsius x 100.
+	  This threshold triggers a high temperature interrupt if the measured
+	  value rises above it.
+
+config SENSOR_NODE_SOIL_THRESHOLD_LOW
+	int "Default soil moisture low threshold (in percent x 100)"
+	default 30000
+	help
+	  Default low threshold for soil moisture sensor in percent x 100.
+	  This threshold triggers a low soil moisture interrupt if the measured
+	  value falls below it.
+
+config SENSOR_NODE_LIGHT_SAMPLING_PERIOD
+	int "Light sensor sampling period (in milliseconds)"
+	default 5000
+	help
+	  Period in milliseconds between consecutive light sensor readings.
+
+config SENSOR_NODE_TEMP_SAMPLING_PERIOD
+	int "Temperature sensor sampling period (in milliseconds)"
+	default 2000
+	help
+	  Period in milliseconds between consecutive temperature sensor readings.
+
+config SENSOR_NODE_SOIL_SAMPLING_PERIOD
+	int "Soil moisture sensor sampling period (in milliseconds)"
+	default 10000
+	help
+	  Period in milliseconds between consecutive soil moisture sensor readings.
+
+endmenu
+
+menu "Communication Configuration"
+
+config SENSOR_NODE_UART_BAUDRATE
+	int "UART baudrate"
+	default 115200
+	help
+	  UART baudrate for communication with the base node.
+
+endmenu
+
+source "Kconfig.zephyr"

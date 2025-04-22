@@ -1,0 +1,48 @@
+/*
+ * Copyright (c) 2022 Smart Gardening System Project
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/ {
+    aliases {
+        i2c0 = &i2c0;
+        adc0 = &adc;
+        uart0 = &uart0;
+    };
+};
+
+&i2c0 {
+    status = "okay";
+    clock-frequency = <400000>;
+
+    tsl2591: tsl2591@29 {
+        compatible = "ams,tsl2591";
+        reg = <0x29>;
+        int-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
+    };
+
+    stemma_soil: stemma_soil@36 {
+        compatible = "adafruit,stemma-soil";
+        reg = <0x36>;
+    };
+};
+
+&adc {
+    status = "okay";
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    mcp9700: mcp9700@0 {
+        compatible = "microchip,mcp9700";
+        reg = <0>;
+        #io-channel-cells = <1>;
+    };
+};
+
+&uart0 {
+    status = "okay";
+    current-speed = <115200>;
+    rx-pin = <17>;
+    tx-pin = <16>;
+};

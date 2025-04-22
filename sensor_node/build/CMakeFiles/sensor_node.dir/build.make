@@ -69,65 +69,988 @@ include CMakeFiles/sensor_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sensor_node.dir/flags.make
 
-CMakeFiles/sensor_node.dir/main.c.o: CMakeFiles/sensor_node.dir/flags.make
-CMakeFiles/sensor_node.dir/main.c.o: /home/runner/workspace/sensor_node/main.c
-CMakeFiles/sensor_node.dir/main.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sensor_node.dir/main.c.o"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/main.c.o -MF CMakeFiles/sensor_node.dir/main.c.o.d -o CMakeFiles/sensor_node.dir/main.c.o -c /home/runner/workspace/sensor_node/main.c
+CMakeFiles/sensor_node.dir/sensor_node.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/sensor_node.c.o: /home/runner/workspace/sensor_node/sensor_node.c
+CMakeFiles/sensor_node.dir/sensor_node.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sensor_node.dir/sensor_node.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/sensor_node.c.o -MF CMakeFiles/sensor_node.dir/sensor_node.c.o.d -o CMakeFiles/sensor_node.dir/sensor_node.c.o -c /home/runner/workspace/sensor_node/sensor_node.c
 
-CMakeFiles/sensor_node.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/main.c.i"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/main.c > CMakeFiles/sensor_node.dir/main.c.i
+CMakeFiles/sensor_node.dir/sensor_node.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/sensor_node.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/sensor_node.c > CMakeFiles/sensor_node.dir/sensor_node.c.i
 
-CMakeFiles/sensor_node.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/main.c.s"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/main.c -o CMakeFiles/sensor_node.dir/main.c.s
+CMakeFiles/sensor_node.dir/sensor_node.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/sensor_node.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/sensor_node.c -o CMakeFiles/sensor_node.dir/sensor_node.c.s
 
-CMakeFiles/sensor_node.dir/sensors.c.o: CMakeFiles/sensor_node.dir/flags.make
-CMakeFiles/sensor_node.dir/sensors.c.o: /home/runner/workspace/sensor_node/sensors.c
-CMakeFiles/sensor_node.dir/sensors.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sensor_node.dir/sensors.c.o"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/sensors.c.o -MF CMakeFiles/sensor_node.dir/sensors.c.o.d -o CMakeFiles/sensor_node.dir/sensors.c.o -c /home/runner/workspace/sensor_node/sensors.c
+CMakeFiles/sensor_node.dir/tsl2591.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/tsl2591.c.o: /home/runner/workspace/sensor_node/tsl2591.c
+CMakeFiles/sensor_node.dir/tsl2591.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sensor_node.dir/tsl2591.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/tsl2591.c.o -MF CMakeFiles/sensor_node.dir/tsl2591.c.o.d -o CMakeFiles/sensor_node.dir/tsl2591.c.o -c /home/runner/workspace/sensor_node/tsl2591.c
 
-CMakeFiles/sensor_node.dir/sensors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/sensors.c.i"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/sensors.c > CMakeFiles/sensor_node.dir/sensors.c.i
+CMakeFiles/sensor_node.dir/tsl2591.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/tsl2591.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/tsl2591.c > CMakeFiles/sensor_node.dir/tsl2591.c.i
 
-CMakeFiles/sensor_node.dir/sensors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/sensors.c.s"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/sensors.c -o CMakeFiles/sensor_node.dir/sensors.c.s
+CMakeFiles/sensor_node.dir/tsl2591.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/tsl2591.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/tsl2591.c -o CMakeFiles/sensor_node.dir/tsl2591.c.s
 
-CMakeFiles/sensor_node.dir/uart_protocol.c.o: CMakeFiles/sensor_node.dir/flags.make
-CMakeFiles/sensor_node.dir/uart_protocol.c.o: /home/runner/workspace/sensor_node/uart_protocol.c
-CMakeFiles/sensor_node.dir/uart_protocol.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sensor_node.dir/uart_protocol.c.o"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/uart_protocol.c.o -MF CMakeFiles/sensor_node.dir/uart_protocol.c.o.d -o CMakeFiles/sensor_node.dir/uart_protocol.c.o -c /home/runner/workspace/sensor_node/uart_protocol.c
+CMakeFiles/sensor_node.dir/stemma_soil.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/stemma_soil.c.o: /home/runner/workspace/sensor_node/stemma_soil.c
+CMakeFiles/sensor_node.dir/stemma_soil.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sensor_node.dir/stemma_soil.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/stemma_soil.c.o -MF CMakeFiles/sensor_node.dir/stemma_soil.c.o.d -o CMakeFiles/sensor_node.dir/stemma_soil.c.o -c /home/runner/workspace/sensor_node/stemma_soil.c
 
-CMakeFiles/sensor_node.dir/uart_protocol.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/uart_protocol.c.i"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/uart_protocol.c > CMakeFiles/sensor_node.dir/uart_protocol.c.i
+CMakeFiles/sensor_node.dir/stemma_soil.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/stemma_soil.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/stemma_soil.c > CMakeFiles/sensor_node.dir/stemma_soil.c.i
 
-CMakeFiles/sensor_node.dir/uart_protocol.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/uart_protocol.c.s"
-	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/uart_protocol.c -o CMakeFiles/sensor_node.dir/uart_protocol.c.s
+CMakeFiles/sensor_node.dir/stemma_soil.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/stemma_soil.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/stemma_soil.c -o CMakeFiles/sensor_node.dir/stemma_soil.c.s
+
+CMakeFiles/sensor_node.dir/mcp9700.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/mcp9700.c.o: /home/runner/workspace/sensor_node/mcp9700.c
+CMakeFiles/sensor_node.dir/mcp9700.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sensor_node.dir/mcp9700.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/mcp9700.c.o -MF CMakeFiles/sensor_node.dir/mcp9700.c.o.d -o CMakeFiles/sensor_node.dir/mcp9700.c.o -c /home/runner/workspace/sensor_node/mcp9700.c
+
+CMakeFiles/sensor_node.dir/mcp9700.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/mcp9700.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/sensor_node/mcp9700.c > CMakeFiles/sensor_node.dir/mcp9700.c.i
+
+CMakeFiles/sensor_node.dir/mcp9700.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/mcp9700.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/sensor_node/mcp9700.c -o CMakeFiles/sensor_node.dir/mcp9700.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o: /home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o: /home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o: /home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o: /home/runner/workspace/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_time/time.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_time/time.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o: /home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o: /home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o: /home/runner/workspace/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o -c /home/runner/workspace/pico-sdk/src/common/pico_util/queue.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building ASM object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/sensor_node.dir/flags.make
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/sensor_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target sensor_node
 sensor_node_OBJECTS = \
-"CMakeFiles/sensor_node.dir/main.c.o" \
-"CMakeFiles/sensor_node.dir/sensors.c.o" \
-"CMakeFiles/sensor_node.dir/uart_protocol.c.o"
+"CMakeFiles/sensor_node.dir/sensor_node.c.o" \
+"CMakeFiles/sensor_node.dir/tsl2591.c.o" \
+"CMakeFiles/sensor_node.dir/stemma_soil.c.o" \
+"CMakeFiles/sensor_node.dir/mcp9700.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" \
+"CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 
 # External object files for target sensor_node
 sensor_node_EXTERNAL_OBJECTS =
 
-sensor_node: CMakeFiles/sensor_node.dir/main.c.o
-sensor_node: CMakeFiles/sensor_node.dir/sensors.c.o
-sensor_node: CMakeFiles/sensor_node.dir/uart_protocol.c.o
+sensor_node: CMakeFiles/sensor_node.dir/sensor_node.c.o
+sensor_node: CMakeFiles/sensor_node.dir/tsl2591.c.o
+sensor_node: CMakeFiles/sensor_node.dir/stemma_soil.c.o
+sensor_node: CMakeFiles/sensor_node.dir/mcp9700.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/platform.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/hardware_claim/claim.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/sem.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/lock_core.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/mutex.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_sync/critical_section.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/time.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_time/timeout_helper.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/datetime.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/pheap.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/common/pico_util/queue.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+sensor_node: CMakeFiles/sensor_node.dir/home/runner/workspace/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 sensor_node: CMakeFiles/sensor_node.dir/build.make
+sensor_node: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+sensor_node: /home/runner/workspace/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 sensor_node: CMakeFiles/sensor_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable sensor_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/workspace/sensor_node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX executable sensor_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_node.dir/link.txt --verbose=$(VERBOSE)
-	/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/bin/cmake -E echo NOTE:\ This\ is\ a\ mock\ build\ for\ Replit\ demonstration.\ In\ a\ real\ environment,\ you\ would\ need\ the\ full\ Pico\ SDK.
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/objdump -h /home/runner/workspace/sensor_node/build/sensor_node > sensor_node.dis
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/objdump -d /home/runner/workspace/sensor_node/build/sensor_node >> sensor_node.dis
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/objcopy -Oihex /home/runner/workspace/sensor_node/build/sensor_node sensor_node.hex
+	/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/objcopy -Obinary /home/runner/workspace/sensor_node/build/sensor_node sensor_node.bin
+	_deps/picotool/picotool uf2 convert --quiet /home/runner/workspace/sensor_node/build/sensor_node sensor_node.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/sensor_node.dir/build: sensor_node
