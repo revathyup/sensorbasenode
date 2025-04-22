@@ -9,7 +9,7 @@
 // Static variables
 static i2c_inst_t *i2c_instance;
 static tsl2591_gain_t current_gain = TSL2591_GAIN_MED;
-static tsl2591_integration_time_t current_integration_time = TSL2591_INTEGRATIONTIME_300MS;
+static tsl2591_integration_time_t current_integration_time = TSL2591_INTEGRATIONTIME_300;
 
 // Integration time conversion table (in milliseconds)
 static const uint16_t integration_time_ms[] = {

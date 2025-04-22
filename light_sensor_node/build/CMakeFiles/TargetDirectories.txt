@@ -1,6 +1,4 @@
 /home/runner/workspace/light_sensor_node/build/CMakeFiles/light_sensor_node.dir
-/home/runner/workspace/light_sensor_node/build/CMakeFiles/picotoolForceReconfigure.dir
-/home/runner/workspace/light_sensor_node/build/CMakeFiles/picotoolBuild.dir
 /home/runner/workspace/light_sensor_node/build/CMakeFiles/edit_cache.dir
 /home/runner/workspace/light_sensor_node/build/CMakeFiles/rebuild_cache.dir
 /home/runner/workspace/light_sensor_node/build/pico-sdk/CMakeFiles/edit_cache.dir

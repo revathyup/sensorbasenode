@@ -49,7 +49,7 @@ int main() {
     
     // Configure sensor settings
     tsl2591_set_gain(TSL2591_GAIN_MED);
-    tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_300MS);
+    tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_300);
     
     printf("Light sensor node ready!\n");
     

@@ -28,6 +28,10 @@ args = "Zephyr Sensor Node"
 task = "workflow.run"
 args = "Light Sensor Node Build"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Light Sensor Simulator"
+
 [[workflows.workflow]]
 name = "Sensor Node"
 author = "agent"
@@ -84,6 +88,20 @@ task = "packager.installForAll"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "export PICO_SDK_PATH=/home/runner/workspace/pico-sdk && cd light_sensor_node && mkdir -p build && cd build && cmake .. && make -j4"
+
+[[workflows.workflow]]
+name = "Light Sensor Simulator"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd sim_light_sensor && ./light_sensor_sim"
 
 [deployment]
 run = ["sh", "-c", "cd sensor_node && mkdir -p build && cd build && cmake .. && make -j4 && ./sensor_node"]
