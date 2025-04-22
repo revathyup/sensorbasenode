@@ -1,104 +1,98 @@
-# Smart Gardening System
+# Smart Gardening System - Light Sensor Node
 
-This project implements a smart sensor node system using two Raspberry Pi Pico boards to collect environmental data from multiple sensors and expose it through a Zephyr driver.
+## Overview
 
-## Architecture
+This project implements a light sensor node for a Smart Gardening System using a Raspberry Pi Pico microcontroller. The system monitors light levels using a TSL2591 high-precision light sensor and provides real-time feedback and alerts when light conditions fall outside optimal ranges.
 
-The system consists of:
+## Features
 
-1. **Sensor Node** - A Raspberry Pi Pico running Pico SDK that interfaces with:
-   - Adafruit TSL2591 light sensor (I2C)
-   - MCP9700/9700A temperature sensor (Analog)
-   - Adafruit STEMMA soil moisture sensor (I2C)
+- Monitors light intensity using the TSL2591 high-precision light sensor
+- Calculates light levels in lux for accurate plant light measurements
+- Provides threshold alerts for low and high light conditions
+- Outputs all data via USB for easy monitoring in a terminal like PuTTY
+- Configurable gain and integration time settings for different light conditions
 
-2. **Base Node** - A Raspberry Pi Pico running Zephyr RTOS that:
-   - Implements a Zephyr sensor driver
-   - Communicates with the sensor node via UART
-   - Processes sensor data and handles interrupts
-   - Displays data to a terminal via UART
+## Project Structure
 
-## Hardware Requirements
+- `light_sensor_node/`: Pico SDK implementation of the light sensor node
+  - `main.c`: Main application code
+  - `tsl2591.c/h`: Driver for the TSL2591 light sensor
+  - `CMakeLists.txt`: Build configuration
 
-- 2 × Raspberry Pi Pico boards
-- Adafruit TSL2591 light sensor
-- MCP9700/9700A temperature sensor
-- Adafruit STEMMA soil moisture sensor
-- Breadboard and jumper wires
-- USB cables for power and programming
+- `sim_light_sensor/`: Simulated version of the light sensor node for testing
+  - `main.c`: Simulated application with interactive commands
+  - `tsl2591_sim.c/h`: Simulated sensor driver 
+  - `Makefile`: Build configuration for the simulator
 
-## Wiring Diagram
+## Hardware Components
 
-### Sensor Node (Raspberry Pi Pico)
-- **Light Sensor (TSL2591)**:
+- Raspberry Pi Pico microcontroller
+- TSL2591 light sensor (I2C interface)
+- Connecting wires
+- Micro USB cable (for power and data)
+
+## Connections
+
+- Connect TSL2591 to Raspberry Pi Pico:
   - VIN → 3.3V
   - GND → GND
-  - SCL → GPIO 5 (I2C0 SCL)
-  - SDA → GPIO 4 (I2C0 SDA)
-
-- **Soil Moisture Sensor (STEMMA)**:
-  - VIN → 3.3V
-  - GND → GND
-  - SCL → GPIO 7 (I2C1 SCL)
-  - SDA → GPIO 6 (I2C1 SDA)
-
-- **Temperature Sensor (MCP9700/9700A)**:
-  - VDD → 3.3V
-  - GND → GND
-  - OUT → GPIO 26 (ADC0)
-
-- **UART Connection to Base Node**:
-  - TX → GPIO 0 (UART0 TX)
-  - RX → GPIO 1 (UART0 RX)
-  - GPIO 2 → Interrupt line to Base Node
-
-### Base Node (Raspberry Pi Pico)
-- **UART Connection to Sensor Node**:
-  - RX → GPIO 0 (UART0 RX)
-  - TX → GPIO 1 (UART0 TX)
-  - GPIO 2 → Interrupt line from Sensor Node
-
-- **UART Connection to Computer**:
-  - TX → GPIO 4 (UART1 TX)
-  - RX → GPIO 5 (UART1 RX)
+  - SCL → GP5
+  - SDA → GP4
 
 ## Building and Running
 
-### Sensor Node
-1. Navigate to the `sensor_node` directory
-2. Build the project with:
+### For the Real Hardware
+
+1. Export the Pico SDK path:
    ```
-   mkdir build
+   export PICO_SDK_PATH=/path/to/pico-sdk
+   ```
+
+2. Build the project:
+   ```
+   cd light_sensor_node
+   mkdir -p build
    cd build
    cmake ..
    make
    ```
-3. Flash the resulting `.uf2` file to the Raspberry Pi Pico
 
-### Base Node
-1. Set up Zephyr development environment
-2. Navigate to the `base_node` directory
-3. Build the project with:
+3. Connect the Raspberry Pi Pico to your computer while holding the BOOTSEL button
+4. Copy the generated `light_sensor_node.uf2` file to the mounted Pico drive
+5. The Pico will restart and run the light sensor application
+6. Connect to the Pico using a serial terminal (PuTTY) at 115200 baud rate
+
+### For the Simulator
+
+1. Build the simulator:
    ```
-   west build -b rpi_pico
+   cd sim_light_sensor
+   make
    ```
-4. Flash the resulting binary to the Raspberry Pi Pico
 
-## Communication Protocol
+2. Run the simulator:
+   ```
+   ./light_sensor_sim
+   ```
 
-The sensor node and base node communicate using a simple binary protocol over UART:
-- Start byte (0xAA)
-- Command byte
-- Data length byte
-- Data bytes
-- Checksum byte (XOR of all previous bytes)
+3. Use the following commands in the simulator:
+   - `help`: Show available commands
+   - `normal`: Set normal light conditions
+   - `low`: Set low light conditions
+   - `bright`: Set bright light conditions
+   - `random`: Set random light conditions
+   - `quit`: Exit the simulator
 
-## Interrupt System
+## Light Thresholds
 
-The system implements an interrupt line between the sensor node and base node. Interrupts are triggered when:
-- Soil moisture falls below a configurable threshold
-- Temperature rises above a configurable threshold
-- Light intensity exceeds a configurable threshold
+- Low light threshold: 20 lux (plants need more light)
+- High light threshold: 1000 lux (potentially too much light for some plants)
 
-## License
+These thresholds can be adjusted in the code by modifying the `LIGHT_LOW_THRESHOLD` and `LIGHT_HIGH_THRESHOLD` constants.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Future Enhancements
+
+- Add support for soil moisture and temperature sensors
+- Implement wireless communication between sensor nodes and a base station
+- Develop an automated control system for grow lights and irrigation
+- Create a mobile app interface for monitoring and control

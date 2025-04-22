@@ -1,5 +1,0 @@
-/home/runner/workspace/sensor_node/build/_deps/picotool/picotool
-/home/runner/workspace/sensor_node/build/_deps/picotool/picotoolTargets.cmake
-/home/runner/workspace/sensor_node/build/_deps/picotool/picotoolTargets-release.cmake
-/home/runner/workspace/sensor_node/build/_deps/picotool/picotoolConfig.cmake
-/home/runner/workspace/sensor_node/build/_deps/picotool/picotoolConfigVersion.cmake
