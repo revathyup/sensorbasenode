@@ -24,6 +24,10 @@ args = "Sensor Node Build"
 task = "workflow.run"
 args = "Zephyr Sensor Node"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Light Sensor Node Build"
+
 [[workflows.workflow]]
 name = "Sensor Node"
 author = "agent"
@@ -66,6 +70,20 @@ task = "packager.installForAll"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd sensor_node_zephyr && west build -b rpi_pico"
+
+[[workflows.workflow]]
+name = "Light Sensor Node Build"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "export PICO_SDK_PATH=/home/runner/workspace/pico-sdk && cd light_sensor_node && mkdir -p build && cd build && cmake .. && make -j4"
 
 [deployment]
 run = ["sh", "-c", "cd sensor_node && mkdir -p build && cd build && cmake .. && make -j4 && ./sensor_node"]

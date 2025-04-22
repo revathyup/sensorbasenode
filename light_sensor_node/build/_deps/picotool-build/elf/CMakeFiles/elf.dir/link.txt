@@ -1,0 +1,2 @@
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ar qc libelf.a CMakeFiles/elf.dir/elf_file.cpp.o
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ranlib libelf.a
