@@ -1,0 +1,31 @@
+# Kconfig - Sensor Node driver configuration options
+
+config SENSOR_NODE
+	bool "Sensor Node driver for Smart Gardening System"
+	default y
+	depends on SENSOR && SERIAL
+	help
+	  Enable Sensor Node driver that communicates with a separate
+	  Raspberry Pi Pico running the sensor firmware.
+
+if SENSOR_NODE
+
+config SENSOR_NODE_THREAD_STACK_SIZE
+	int "Stack size for the sensor node processing thread"
+	default 2048
+	help
+	  Size of the stack used by the sensor node processing thread.
+
+config SENSOR_NODE_THREAD_PRIORITY
+	int "Priority for the sensor node processing thread"
+	default 5
+	help
+	  Priority at which the sensor node thread should run.
+
+config SENSOR_NODE_FETCH_INTERVAL_MS
+	int "Default interval between sensor data fetches (ms)"
+	default 5000
+	help
+	  Default interval between automatic data fetches.
+
+endif # SENSOR_NODE

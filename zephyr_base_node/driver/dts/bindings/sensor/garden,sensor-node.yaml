@@ -1,0 +1,21 @@
+description: Sensor Node driver for Smart Gardening System
+
+compatible: "garden,sensor-node"
+
+include: base.yaml
+
+properties:
+  uart-dev:
+    type: phandle
+    required: true
+    description: UART device to use for communication with the sensor node
+
+  tx-pin:
+    type: int
+    required: true
+    description: GPIO pin number for UART TX
+
+  rx-pin:
+    type: int
+    required: true
+    description: GPIO pin number for UART RX
