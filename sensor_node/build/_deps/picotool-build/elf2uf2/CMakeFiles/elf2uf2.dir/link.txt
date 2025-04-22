@@ -1,0 +1,2 @@
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ar qc libelf2uf2.a CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ranlib libelf2uf2.a

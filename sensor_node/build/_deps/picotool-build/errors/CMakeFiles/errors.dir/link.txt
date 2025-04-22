@@ -1,0 +1,2 @@
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ar qc liberrors.a CMakeFiles/errors.dir/errors.cpp.o
+/nix/store/2wdjznxkbxy5qpvrfrx14s23acq5syz5-replit-runtime-path/bin/ranlib liberrors.a
