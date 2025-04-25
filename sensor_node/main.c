@@ -222,6 +222,14 @@ void read_and_process_sensors(void) {
     float soil_temp;
     static uint16_t prev_moisture = 0;
     
+    // In sensor_node/main.c, find soil moisture initialization
+    if (!stemma_soil_init(i2c)) {
+    printf("Failed to initialize soil moisture sensor\n");
+    // Change from error to warning since you don't have this sensor yet
+    // but want to continue with the available sensors
+    printf("Warning: Continuing without soil moisture sensor\n");
+    }
+   
     if (stemma_soil_read_moisture(&moisture) && stemma_soil_read_temperature(&soil_temp)) {
         // Prepare soil moisture data structure
         soil_data_t soil_data = {

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/runner/workspace/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S" "/home/runner/workspace/sensor_node/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S" "/Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -25,17 +25,17 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/runner/workspace/pico-sdk/src/rp2040/boot_stage2/asminclude"
-  "/home/runner/workspace/pico-sdk/src/rp2040/hardware_regs/include"
-  "/home/runner/workspace/pico-sdk/src/rp2_common/hardware_base/include"
-  "/home/runner/workspace/pico-sdk/src/common/pico_base_headers/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/asminclude"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_base/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include"
   "generated/pico_base"
-  "/home/runner/workspace/pico-sdk/src/boards/include"
-  "/home/runner/workspace/pico-sdk/src/rp2040/pico_platform/include"
-  "/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_compiler/include"
-  "/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_panic/include"
-  "/home/runner/workspace/pico-sdk/src/rp2_common/pico_platform_sections/include"
-  "/home/runner/workspace/pico-sdk/src/rp2040/boot_stage2/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/boards/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_panic/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_sections/include"
+  "/Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/include"
   )
 
 # The set of dependency files which are needed:

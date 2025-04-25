@@ -10,7 +10,7 @@
 #include <string.h>
 
 #include "sensor_node_driver.h"
-#include "../../protocol.h"
+#include "protocol.h"
 
 LOG_MODULE_REGISTER(sensor_node, CONFIG_SENSOR_LOG_LEVEL);
 
@@ -127,7 +127,7 @@ static int send_packet(const struct device *uart_dev, protocol_packet_t *packet)
 }
 
 /* Sensor driver initialization */
-static int sensor_node_init(const struct device *dev)
+int sensor_node_init(const struct device *dev)
 {
     struct sensor_node_data *data = dev->data;
     const struct sensor_node_config *config = dev->config;

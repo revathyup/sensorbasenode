@@ -1,3 +1,19 @@
+# == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
+if(WIN32)
+    set(USERHOME $ENV{USERPROFILE})
+else()
+    set(USERHOME $ENV{HOME})
+endif()
+set(sdkVersion 2.1.1)
+set(toolchainVersion 14_2_Rel1)
+set(picotoolVersion 2.1.1)
+set(picoVscode ${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+if (EXISTS ${picoVscode})
+    include(${picoVscode})
+endif()
+# ====================================================================================
+set(PICO_BOARD pico CACHE STRING "Board type")
+
 cmake_minimum_required(VERSION 3.13)
 
 # Set PICO_SDK_PATH in environment
@@ -18,9 +34,9 @@ add_executable(sensor_node
     uart_protocol.c
 )
 
-# Enable USB output, disable UART output
-pico_enable_stdio_usb(sensor_node 1)
-pico_enable_stdio_uart(sensor_node 0)
+# Enable UART output for debug probe, disable USB output
+pico_enable_stdio_uart(sensor_node 1)
+pico_enable_stdio_usb(sensor_node 0)
 
 # Pull in common dependencies
 target_link_libraries(sensor_node

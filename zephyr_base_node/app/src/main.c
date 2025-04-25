@@ -13,12 +13,16 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "../../protocol.h"
+#include "protocol.h"
 
 LOG_MODULE_REGISTER(main, CONFIG_LOG_DEFAULT_LEVEL);
 
 /* Device reference for the sensor node */
-static const struct device *sensor_node_dev;
+static const struct device *sensor_node_dev; 
+
+/* External functions from sensor driver */
+extern int sensor_node_ping(const struct device *dev);
+extern int sensor_node_set_threshold(const struct device *dev, uint8_t sensor_type, uint8_t alert_type, float threshold);
 
 /* Threshold values */
 static float light_low_threshold = 50.0f;    /* 50 lux */
@@ -306,11 +310,11 @@ static void sensor_thread(void *arg1, void *arg2, void *arg3)
 }
 
 /* External functions from sensor driver */
-extern int sensor_node_ping(const struct device *dev);
-extern int sensor_node_set_threshold(const struct device *dev, uint8_t sensor_type, 
+//extern int sensor_node_ping(const struct device *dev);
+//extern int sensor_node_set_threshold(const struct device *dev, uint8_t sensor_type, 
                                      uint8_t alert_type, float threshold);
 
-void main(void)
+int main(void)
 {
     printk("Smart Gardening System - Base Node\n");
     printk("--------------------------------\n");
@@ -340,4 +344,6 @@ void main(void)
     
     printk("System initialized and running\n");
     printk("Type 'help' for available commands\n");
+    
+    return 0;
 }

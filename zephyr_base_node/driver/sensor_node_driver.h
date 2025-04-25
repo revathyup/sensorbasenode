@@ -9,7 +9,7 @@
 #include <zephyr/device.h>
 #include <zephyr/drivers/sensor.h>
 #include <zephyr/drivers/uart.h>
-#include "../../protocol.h"  // Shared protocol definitions
+#include "protocol.h"  // Shared protocol definitions
 
 /* Device config structure */
 struct sensor_node_config {
