@@ -48,3 +48,8 @@ target_link_libraries(sensor_node
 
 # Create map/bin/hex/uf2 output files
 pico_add_extra_outputs(sensor_node)
+
+# Add BME680 source file
+target_sources(sensor_node PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/bme680.c
+)

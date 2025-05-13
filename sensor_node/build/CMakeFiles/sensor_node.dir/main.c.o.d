@@ -1,5 +1,5 @@
 CMakeFiles/sensor_node.dir/main.c.o: \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/main.c \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/main.c \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
@@ -21,70 +21,72 @@ CMakeFiles/sensor_node.dir/main.c.o: \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_locale.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/string.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/assert.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
  /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/version.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/config_autogen.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/boards/include/boards/pico.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_time/include/pico/time.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/tsl2591.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/mcp9700.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/stemma_soil.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/uart_protocol.h \
- /Users/eriksun/Desktop/SensorNodeInterface/sensor_node/../protocol.h
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/version.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/config_autogen.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/boards/include/boards/pico.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/tsl2591.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/mcp9700.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/stemma_soil.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/uart_protocol.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/../protocol.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/bme680.h \
+ /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/protocol.h

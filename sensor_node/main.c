@@ -15,6 +15,7 @@
 #include "stemma_soil.h"
 #include "uart_protocol.h"
 #include "../protocol.h"
+#include "bme680.h"
 
 // Pin definitions
 #define I2C_SDA_PIN 4
@@ -23,6 +24,8 @@
 #define LED_PIN 25          // Onboard LED
 #define UART_TX_PIN 8
 #define UART_RX_PIN 9
+#define BME680_SDA_PIN 2    // Groove 2 SDA
+#define BME680_SCL_PIN 3    // Groove 2 SCL
 
 // Sensor thresholds
 #define LIGHT_HIGH_THRESHOLD 1000.0f    // lux
@@ -36,6 +39,7 @@
 static const uint I2C_FREQ = 100 * 1000;  // 100 KHz
 static const uint UART_BAUD = 115200;     // 115200 baud
 static i2c_inst_t *i2c = i2c0;
+static i2c_inst_t *bme680_i2c = i2c1;     // Second I2C for BME680
 static uart_inst_t *uart = uart1;
 static uint8_t led_state = 0;
 static absolute_time_t next_led_toggle;
@@ -47,10 +51,25 @@ void setup_hardware(void);
 void read_and_process_sensors(void);
 void process_uart_commands(void);
 void toggle_led(void);
+void read_bme680_sensor(void);
 
 int main() {
     // Initialize system
     setup_hardware();
+    
+    // Initialize BME680 I2C
+    i2c_init(bme680_i2c, I2C_FREQ);
+    gpio_set_function(BME680_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(BME680_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(BME680_SDA_PIN);
+    gpio_pull_up(BME680_SCL_PIN);
+    
+    // Initialize BME680
+    if (!bme680_init(bme680_i2c)) {
+        printf("Failed to initialize BME680 sensor!\n");
+    } else {
+        printf("BME680 sensor initialized successfully\n");
+    }
     
     printf("\n=============================================\n");
     printf("     Smart Gardening Sensor Node\n");
@@ -258,6 +277,9 @@ void read_and_process_sensors(void) {
             printf("Soil: Moisture: %d/1000, Temperature: %.1f°C\n", moisture, soil_temp);
         }
     }
+    
+    // Read BME680 sensor
+    read_bme680_sensor();
 }
 
 /**
@@ -295,4 +317,38 @@ void process_uart_commands(void) {
 void toggle_led(void) {
     led_state = !led_state;
     gpio_put(LED_PIN, led_state);
+}
+
+void read_bme680_sensor(void) {
+    float humidity;
+    static float prev_hum = 0;
+    
+    if (bme680_sample_fetch(&humidity)) {
+        printf("Raw humidity reading: %.1f%%\n", humidity);
+        // Prepare BME680 data structure
+        bme680_data_t bme680_data = {
+            .sensor_type = SENSOR_BME680,
+            .humidity = humidity
+        };
+        
+        // Send BME680 data over UART
+        uart_protocol_send_bme680_data(&bme680_data);
+        
+        // Print BME680 data to console
+        if (absolute_time_diff_us(get_absolute_time(), next_console_update) <= 0) {
+            printf("BME680 Humidity: %.1f%%\n", humidity);
+        }
+    } else {
+        printf("Failed to read from BME680 sensor\n");
+    }
+    
+    // In main(), after initializing I2C:
+    printf("Scanning I2C bus for BME680...\n");
+    for(uint8_t addr = 0x76; addr <= 0x77; addr++) {
+        uint8_t reg = BME680_ID;
+        if(i2c_write_blocking(bme680_i2c, addr, &reg, 1, true) == 1 &&
+           i2c_read_blocking(bme680_i2c, addr, &reg, 1, false) == 1) {
+            printf("BME680 detected at 0x%02X\n", addr);
+        }
+    }
 }

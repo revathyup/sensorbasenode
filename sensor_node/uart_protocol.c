@@ -8,6 +8,7 @@
 #include "pico/stdlib.h"
 #include "hardware/uart.h"
 #include "uart_protocol.h"
+#include "protocol.h"
 
 // Static variables
 static uart_inst_t *uart_instance;
@@ -259,4 +260,14 @@ bool uart_protocol_receive_packet(protocol_packet_t *packet) {
     }
     
     return true;
+}
+
+void uart_protocol_send_bme680_data(const bme680_data_t *data) {
+    protocol_packet_t packet;
+    
+    packet.command = CMD_SENSOR_DATA;
+    packet.length = sizeof(bme680_data_t);
+    memcpy(packet.data, data, packet.length);
+    
+    uart_protocol_send_packet(&packet);
 }

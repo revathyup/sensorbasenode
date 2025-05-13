@@ -34,6 +34,9 @@ struct sensor_node_data {
     uint16_t soil_moisture;
     uint8_t soil_moisture_pct;
     float soil_temperature;
+
+    /* BME680 readings */
+    struct bme680_data bme680_data;
     
     /* Alert thresholds */
     float light_low_threshold;
@@ -59,6 +62,10 @@ enum sensor_node_channel {
     SENSOR_NODE_CHANNEL_TEMPERATURE = SENSOR_CHAN_AMBIENT_TEMP,
     SENSOR_NODE_CHANNEL_SOIL_MOISTURE = SENSOR_CHAN_HUMIDITY,  // Repurposing humidity for soil moisture
     SENSOR_NODE_CHANNEL_SOIL_TEMPERATURE = SENSOR_CHAN_DIE_TEMP,  // Repurposing die temp for soil temp
+    SENSOR_NODE_CHANNEL_BME680_TEMP = SENSOR_CHAN_AMBIENT_TEMP,
+    SENSOR_NODE_CHANNEL_BME680_PRESS = SENSOR_CHAN_PRESS,
+    SENSOR_NODE_CHANNEL_BME680_HUM = SENSOR_CHAN_HUMIDITY,
+    SENSOR_NODE_CHANNEL_BME680_GAS = SENSOR_CHAN_GAS_RESISTANCE,
 };
 
 /* API function prototypes */

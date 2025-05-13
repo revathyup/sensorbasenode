@@ -1,4 +1,4 @@
-# Install script for directory: /Users/eriksun/Desktop/SensorNodeInterface/pico-sdk
+# Install script for directory: /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/eriksun/Desktop/SensorNodeInterface/sensor_node/build/pico-sdk/install_local_manifest.txt"
+  file(WRITE "/Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/pico-sdk/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
