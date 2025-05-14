@@ -77,9 +77,9 @@ bool tsl2591_init(i2c_inst_t *i2c) {
         return false;
     }
     
-    // Set default gain and integration time
-    tsl2591_set_gain(TSL2591_GAIN_25X);
-    tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_300);
+    // Set lower gain and shorter integration time for more appropriate readings
+    tsl2591_set_gain(TSL2591_GAIN_1X);
+    tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_100);
     
     // Power off the sensor (until needed)
     tsl2591_disable();
@@ -259,8 +259,14 @@ float tsl2591_calculate_lux(uint16_t ch0, uint16_t ch1) {
     // Calculate lux using the formula from TSL2591 datasheet
     // Simplified formula: Lux = (C0 - C1) * CPL
     // where CPL (counts per lux) depends on integration time and gain
-    float cpl = (atime * again) / 408.0;
-    float lux = ((float)ch0 - (float)ch1) / cpl;
+    // Use more conservative coefficients for indoor lighting
+    float cpl = (atime * again) / 20.0;
+    float lux = (((float)ch0 - (float)ch1)) * (1.0 / cpl);
+    
+    // Cap maximum lux for indoor environments
+    if (lux > 5000.0f) {
+        lux = 5000.0f;
+    }
     
     // Ensure lux is not negative
     return (lux < 0) ? 0 : lux;

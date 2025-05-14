@@ -82,6 +82,10 @@ int main() {
     printf("Initializing TSL2591 light sensor...\n");
     if (!tsl2591_init(i2c)) {
         printf("Failed to initialize TSL2591 light sensor!\n");
+    } else {
+        // Set lower gain and shorter integration time for more appropriate readings
+        tsl2591_set_gain(TSL2591_GAIN_1X);
+        tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_100);
     }
     
     // Initialize MCP9700 temperature sensor
