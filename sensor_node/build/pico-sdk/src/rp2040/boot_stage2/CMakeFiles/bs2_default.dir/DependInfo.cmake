@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S" "/Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S" "/home/reva/sensorbasenode/sensor_node/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -25,29 +25,25 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/asminclude"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_base/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2040/boot_stage2/asminclude"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_base/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include"
   "generated/pico_base"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/boards/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_compiler/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_panic/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_sections/include"
-  "/Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/boot_stage2/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/boards/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2040/pico_platform/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_panic/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_sections/include"
+  "/home/reva/sensorbasenode/pico-sdk/src/rp2040/boot_stage2/include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -271,3 +271,4 @@ float tsl2591_calculate_lux(uint16_t ch0, uint16_t ch1) {
     // Ensure lux is not negative
     return (lux < 0) ? 0 : lux;
 }
+

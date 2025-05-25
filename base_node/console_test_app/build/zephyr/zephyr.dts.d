@@ -1,0 +1,19 @@
+empty_file.o: \
+ /home/reva/sensorbasenode/base_node/zephyr/misc/empty_file.c \
+ /home/reva/sensorbasenode/base_node/zephyr/boards/arm/rpi_pico/rpi_pico.dts \
+ /home/reva/sensorbasenode/base_node/zephyr/boards/arm/rpi_pico/rpi_pico-common.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/common/freq.h \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/arm/rpi_pico/rp2040.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/arm/armv6-m.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/common/skeleton.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/adc/adc.h \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/gpio/gpio.h \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/clock/rpi_pico_clock.h \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/i2c/i2c.h \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/regulator/rpi_pico.h \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/common/mem.h \
+ /home/reva/sensorbasenode/base_node/zephyr/dts/arm/rpi_pico/rpi_pico_common.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/boards/arm/rpi_pico/rpi_pico-pinctrl.dtsi \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h \
+ /home/reva/sensorbasenode/base_node/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
+ /home/reva/sensorbasenode/base_node/console_test_app/app.overlay

@@ -1,0 +1,12 @@
+&uart0 {
+    status = "okay";
+    current-speed = <115200>;
+};
+
+/ {
+    sensor-node {
+        compatible = "sensor-node";
+        uart = <&uart0>;
+        label = "SENSOR_NODE";
+    };
+}; 

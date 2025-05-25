@@ -1,92 +1,85 @@
 CMakeFiles/sensor_node.dir/main.c.o: \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/main.c \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdio.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_newlib_version.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/config.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/features.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/reent.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_types.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/lock.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/stdio.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/string.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_locale.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/strings.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/string.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/assert.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
- /Users/eriksun/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/version.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/build/generated/pico_base/pico/config_autogen.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/boards/include/boards/pico.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_time/include/pico/time.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /Users/eriksun/Downloads/SensorNodeInterface/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/tsl2591.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/mcp9700.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/stemma_soil.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/uart_protocol.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/../protocol.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/bme680.h \
- /Users/eriksun/Downloads/SensorNodeInterface/sensor_node/protocol.h
+ /home/reva/sensorbasenode/sensor_node/main.c /usr/include/newlib/stdio.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/types.h \
+ /usr/include/newlib/sys/_stdint.h /usr/include/newlib/machine/endian.h \
+ /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
+ /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h \
+ /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
+ /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
+ /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /usr/include/newlib/assert.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /home/reva/sensorbasenode/sensor_node/build/generated/pico_base/pico/version.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+ /home/reva/sensorbasenode/sensor_node/build/generated/pico_base/pico/config_autogen.h \
+ /home/reva/sensorbasenode/pico-sdk/src/boards/include/boards/pico.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /home/reva/sensorbasenode/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+ /home/reva/sensorbasenode/sensor_node/tsl2591.h \
+ /home/reva/sensorbasenode/sensor_node/mcp9700.h \
+ /home/reva/sensorbasenode/sensor_node/uart_protocol.h \
+ /home/reva/sensorbasenode/sensor_node/../protocol.h \
+ /home/reva/sensorbasenode/sensor_node/bme680.h \
+ /home/reva/sensorbasenode/sensor_node/protocol.h

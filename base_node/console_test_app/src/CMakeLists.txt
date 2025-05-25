@@ -1,0 +1,1 @@
+target_include_directories(console_test_app PRIVATE src) 

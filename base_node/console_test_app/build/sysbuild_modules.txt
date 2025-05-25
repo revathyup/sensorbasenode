@@ -1,0 +1,1 @@
+"mcuboot":"/home/reva/sensorbasenode/base_node/bootloader/mcuboot":"/home/reva/sensorbasenode/base_node/bootloader/mcuboot/boot/zephyr/sysbuild"
