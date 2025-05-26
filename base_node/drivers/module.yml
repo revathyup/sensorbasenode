@@ -1,0 +1,4 @@
+name: sensor-drivers
+build:
+  cmake: .
+  kconfig: Kconfig
