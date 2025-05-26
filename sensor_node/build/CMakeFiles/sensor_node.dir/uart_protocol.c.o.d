@@ -68,5 +68,4 @@ CMakeFiles/sensor_node.dir/uart_protocol.c.o: \
  /home/reva/sensorbasenode/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /home/reva/sensorbasenode/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/reva/sensorbasenode/sensor_node/uart_protocol.h \
- /home/reva/sensorbasenode/sensor_node/../protocol.h \
- /home/reva/sensorbasenode/sensor_node/protocol.h
+ /home/reva/sensorbasenode/sensor_node/../protocol.h

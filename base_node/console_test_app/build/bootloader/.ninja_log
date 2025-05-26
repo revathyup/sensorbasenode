@@ -1,7 +1,7 @@
 # ninja log v5
-0	18	1748198149758066976	CMakeFiles/boot_stage2.dir/home/reva/sensorbasenode/base_node/modules/hal/rpi_pico/src/rp2_common/boot_stage2/boot2_w25q080.S.obj	f27f26f1d013ec19
-18	553	1748198150289423872	boot_stage2	73f91aaaa9a71999
-18	553	1748198150289423872	boot_stage2.bin	73f91aaaa9a71999
-18	553	1748198150289423872	boot_stage2.S	73f91aaaa9a71999
-18	553	1748198150289423872	/home/reva/sensorbasenode/base_node/console_test_app/build/bootloader/boot_stage2.bin	73f91aaaa9a71999
-18	553	1748198150289423872	/home/reva/sensorbasenode/base_node/console_test_app/build/bootloader/boot_stage2.S	73f91aaaa9a71999
+0	13	1748256141565409009	CMakeFiles/boot_stage2.dir/home/reva/sensorbasenode/base_node/modules/hal/rpi_pico/src/rp2_common/boot_stage2/boot2_w25q080.S.obj	f27f26f1d013ec19
+13	130	1748256141675409429	boot_stage2	73f91aaaa9a71999
+13	130	1748256141675409429	boot_stage2.bin	73f91aaaa9a71999
+13	130	1748256141675409429	boot_stage2.S	73f91aaaa9a71999
+13	130	1748256141675409429	/home/reva/sensorbasenode/base_node/console_test_app/build/bootloader/boot_stage2.bin	73f91aaaa9a71999
+13	130	1748256141675409429	/home/reva/sensorbasenode/base_node/console_test_app/build/bootloader/boot_stage2.S	73f91aaaa9a71999

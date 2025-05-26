@@ -1,18 +1,8 @@
-/*
- * Copyright (c) 2021 Nordic Semiconductor ASA
- *
- * SPDX-License-Identifier: Apache-2.0
- */
+/* Minimal overlay for UART0 to USB CDC ACM bridge on Raspberry Pi Pico */
 
 / {
 	chosen {
 		zephyr,console = &cdc_acm_uart0;
-		zephyr,shell-uart = &cdc_acm_uart0;
-		zephyr,cdc-acm-uart = &cdc_acm_uart0;
-	};
-
-	aliases {
-		sensor0 = &sensor0;
 	};
 };
 
@@ -26,36 +16,4 @@
 &uart0 {
 	status = "okay";
 	current-speed = <115200>;
-};
-
-/ {
-	sensor0: sensor0 {
-		compatible = "custom,sensor-node";
-		status = "okay";
-		uart = <&uart0>;
-		current-speed = <115200>;
-	};
-};
-
-&i2c0 {
-	status = "okay";
-	tsl2591@29 {
-		compatible = "custom,tsl2591";
-		reg = <0x29>;
-		label = "TSL2591";
-	};
-	bme680@76 {
-		compatible = "bosch,bme680";
-		reg = <0x76>;
-		label = "BME680";
-	};
-};
-
-&adc {
-	status = "okay";
-	mcp9700_0: mcp9700_0 {
-		compatible = "custom,mcp9700";
-		io-channels = <&adc 0>;
-		label = "MCP9700";
-	};
 };

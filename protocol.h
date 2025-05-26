@@ -24,6 +24,7 @@
 #define SENSOR_LIGHT              0x01
 #define SENSOR_TEMPERATURE        0x02
 #define SENSOR_SOIL_MOISTURE      0x03
+#define SENSOR_BME680             0x04
 
 // Alert types
 #define ALERT_LIGHT_LOW           0x01
@@ -54,5 +55,21 @@ typedef struct {
     uint16_t visible;       // Visible light reading
     float lux;              // Calculated lux value
 } light_data_t;
+
+/**
+ * @brief BME680 sensor data structure
+ */
+typedef struct {
+    uint8_t sensor_type;    // Always SENSOR_BME680
+    float humidity;         // Humidity percentage
+} bme680_data_t;
+
+/**
+ * @brief Temperature sensor data structure
+ */
+typedef struct {
+    uint8_t sensor_type;    // Always SENSOR_TEMPERATURE
+    float temperature;      // Temperature in Celsius
+} temperature_data_t;
 
 #endif /* PROTOCOL_H */

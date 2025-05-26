@@ -1,4 +1,6 @@
 /home/reva/sensorbasenode/sensor_node/build/CMakeFiles/sensor_node.dir
+/home/reva/sensorbasenode/sensor_node/build/CMakeFiles/picotoolForceReconfigure.dir
+/home/reva/sensorbasenode/sensor_node/build/CMakeFiles/picotoolBuild.dir
 /home/reva/sensorbasenode/sensor_node/build/CMakeFiles/edit_cache.dir
 /home/reva/sensorbasenode/sensor_node/build/CMakeFiles/rebuild_cache.dir
 /home/reva/sensorbasenode/sensor_node/build/pico-sdk/CMakeFiles/edit_cache.dir

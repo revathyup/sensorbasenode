@@ -72,4 +72,11 @@ uint8_t uart_protocol_calculate_checksum(protocol_packet_t *packet);
  */
 bool uart_protocol_validate_packet(protocol_packet_t *packet);
 
+/**
+ * @brief Send BME680 sensor data over UART
+ * 
+ * @param data BME680 sensor data structure
+ */
+void uart_protocol_send_bme680_data(const bme680_data_t *data);
+
 #endif /* UART_PROTOCOL_H */

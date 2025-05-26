@@ -8,16 +8,14 @@
 		zephyr,flash = &flash0;
 		zephyr,flash-controller = &ssi;
 		zephyr,console = &cdc_acm_uart0;
-		zephyr,shell-uart = &cdc_acm_uart0;
+		zephyr,shell-uart = &uart0;
 		zephyr,code-partition = &code_partition;
-		zephyr,cdc-acm-uart = &cdc_acm_uart0;
 	};
 	aliases {
 		die-temp0 = &die_temp;
 		watchdog0 = &wdt0;
 		led0 = &led0;
 		pwm-led0 = &pwm_led0;
-		sensor0 = &sensor0;
 	};
 	soc {
 		#address-cells = < 0x1 >;
@@ -110,7 +108,6 @@
 			current-speed = < 0x1c200 >;
 			pinctrl-0 = < &uart0_default >;
 			pinctrl-names = "default";
-			phandle = < 0x1f >;
 		};
 		uart1: uart@40038000 {
 			compatible = "raspberrypi,pico-uart";
@@ -157,12 +154,7 @@
 			#io-channel-cells = < 0x1 >;
 			pinctrl-0 = < &adc_default >;
 			pinctrl-names = "default";
-			phandle = < 0x19 >;
-			mcp9700_0: mcp9700_0 {
-				compatible = "custom,mcp9700";
-				io-channels = < &adc 0x0 >;
-				label = "MCP9700";
-			};
+			phandle = < 0x1c >;
 		};
 		i2c0: pico_i2c0: i2c@40044000 {
 			compatible = "raspberrypi,pico-i2c", "snps,designware-i2c";
@@ -177,16 +169,6 @@
 			clock-frequency = < 0x186a0 >;
 			pinctrl-0 = < &i2c0_default >;
 			pinctrl-names = "default";
-			tsl2591@29 {
-				compatible = "custom,tsl2591";
-				reg = < 0x29 >;
-				label = "TSL2591";
-			};
-			bme680@76 {
-				compatible = "bosch,bme680";
-				reg = < 0x76 >;
-				label = "BME680";
-			};
 		};
 		i2c1: pico_i2c1: i2c@40048000 {
 			compatible = "raspberrypi,pico-i2c", "snps,designware-i2c";
@@ -448,7 +430,7 @@
 			};
 		};
 		i2c0_default: i2c0_default {
-			phandle = < 0x1a >;
+			phandle = < 0x19 >;
 			group1 {
 				pinmux = < 0x43 >, < 0x53 >;
 				input-enable;
@@ -456,7 +438,7 @@
 			};
 		};
 		i2c1_default: i2c1_default {
-			phandle = < 0x1b >;
+			phandle = < 0x1a >;
 			group1 {
 				pinmux = < 0x63 >, < 0x73 >;
 				input-enable;
@@ -474,7 +456,7 @@
 			};
 		};
 		pwm_ch4b_default: pwm_ch4b_default {
-			phandle = < 0x1c >;
+			phandle = < 0x1b >;
 			group1 {
 				pinmux = < 0x194 >;
 			};
@@ -516,11 +498,5 @@
 			pwms = < &pwm 0x9 0x1312d00 0x0 >;
 			label = "PWM_LED";
 		};
-	};
-	sensor0: sensor0 {
-		compatible = "custom,sensor-node";
-		status = "okay";
-		uart = < &uart0 >;
-		current-speed = < 0x1c200 >;
 	};
 };

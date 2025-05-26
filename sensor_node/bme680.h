@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 #include "hardware/i2c.h"
-#include "protocol.h"
+#include "../protocol.h"
 
 bool bme680_init(i2c_inst_t *i2c);
 bool bme680_sample_fetch(float *humidity);

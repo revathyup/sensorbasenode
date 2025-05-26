@@ -224,7 +224,6 @@ __ramfunc_load_start = LOADADDR(.ramfunc);
   KEEP(*(".z_devstate.*"));
                 __device_states_end = .;
         } > RAM AT > FLASH
- pm_device_slots_area : ALIGN_WITH_INPUT SUBALIGN(4) { _pm_device_slots_list_start = .; KEEP(*(SORT_BY_NAME(._pm_device_slots.static.*))); _pm_device_slots_list_end = .; } > RAM AT > FLASH
  log_mpsc_pbuf_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_mpsc_pbuf_list_start = .; *(SORT_BY_NAME(._log_mpsc_pbuf.static.*)); _log_mpsc_pbuf_list_end = .; } > RAM AT > FLASH
  log_msg_ptr_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_msg_ptr_list_start = .; KEEP(*(SORT_BY_NAME(._log_msg_ptr.static.*))); _log_msg_ptr_list_end = .; } > RAM AT > FLASH
  log_dynamic_area : ALIGN_WITH_INPUT SUBALIGN(4) { _log_dynamic_list_start = .; KEEP(*(SORT_BY_NAME(._log_dynamic.static.*))); _log_dynamic_list_end = .; } > RAM AT > FLASH
@@ -252,13 +251,6 @@ __ramfunc_load_start = LOADADDR(.ramfunc);
   __usb_descriptor_end = .;
  } > RAM AT > FLASH
  usb_cfg_data_area : ALIGN_WITH_INPUT SUBALIGN(4) { _usb_cfg_data_list_start = .; KEEP(*(SORT_BY_NAME(._usb_cfg_data.static.*))); _usb_cfg_data_list_end = .; } > RAM AT > FLASH
- usb_bos_desc : ALIGN_WITH_INPUT SUBALIGN(1)
- {
-  __usb_bos_desc_start = .;
-  *(".usb.bos_desc")
-  KEEP(*(SORT_BY_NAME(".usb.bos_desc*")))
-  __usb_bos_desc_end = .;
- } > RAM AT > FLASH
     __data_region_end = .;
    bss (NOLOAD) : ALIGN_WITH_INPUT
  {
