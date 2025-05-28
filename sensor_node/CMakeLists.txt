@@ -30,7 +30,7 @@ add_executable(sensor_node
     main.c
     tsl2591.c
     mcp9700.c
-    bme680.c
+    stemma_soil.c
     uart_protocol.c
 )
 

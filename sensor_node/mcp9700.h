@@ -25,6 +25,12 @@ bool mcp9700_init(uint adc_pin);
  */
 float mcp9700_read_temperature(void);
 
-
+/**
+ * @brief Structure for temperature data
+ */
+typedef struct {
+    uint8_t sensor_type;  // Always SENSOR_TEMPERATURE
+    float temperature;    // Temperature in degrees Celsius
+} temperature_data_t;
 
 #endif /* MCP9700_H */

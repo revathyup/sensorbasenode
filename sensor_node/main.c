@@ -3,6 +3,7 @@
  * @brief Main program for the sensor node
  */
 
+ #include <math.h>
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
@@ -12,7 +13,7 @@
 #include "hardware/uart.h"
 #include "tsl2591.h"
 #include "mcp9700.h"
-//#include "stemma_soil.h"
+#include "stemma_soil.h"
 #include "uart_protocol.h"
 #include "../protocol.h"
 #include "bme680.h"
@@ -82,10 +83,6 @@ int main() {
     printf("Initializing TSL2591 light sensor...\n");
     if (!tsl2591_init(i2c)) {
         printf("Failed to initialize TSL2591 light sensor!\n");
-    } else {
-        // Set lower gain and shorter integration time for more appropriate readings
-        tsl2591_set_gain(TSL2591_GAIN_1X);
-        tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_100);
     }
     
     // Initialize MCP9700 temperature sensor
@@ -95,10 +92,10 @@ int main() {
     }
     
     // Initialize STEMMA soil moisture sensor
-    //printf("Initializing STEMMA soil moisture sensor...\n");
-    ////if (!stemma_soil_init(i2c)) {
-      //  printf("Failed to initialize STEMMA soil moisture sensor!\n");
-   // }
+    printf("Initializing STEMMA soil moisture sensor...\n");
+    if (!stemma_soil_init(i2c)) {
+        printf("Failed to initialize STEMMA soil moisture sensor!\n");
+    }
     
     // Initialize UART protocol
     printf("Initializing UART communication...\n");
@@ -239,48 +236,51 @@ void read_and_process_sensors(void) {
     if (absolute_time_diff_us(get_absolute_time(), next_console_update) <= 0) {
         printf("Temperature: %.1f°C\n", temperature);
     }
+
+    printf("Temperature: %.1f°C\n", fabsf(temperature));  // for float
+
     
     // Read soil moisture sensor
-    //uint16_t moisture;
-    //float soil_temp;
-    //static uint16_t prev_moisture = 0;
+    uint16_t moisture;
+    float soil_temp;
+    static uint16_t prev_moisture = 0;
     
     // In sensor_node/main.c, find soil moisture initialization
-    //if (!stemma_soil_init(i2c)) {
+    if (!stemma_soil_init(i2c)) {
     //printf("Failed to initialize soil moisture sensor\n");
     // Change from error to warning since you don't have this sensor yet
     // but want to continue with the available sensors
     //printf("Warning: Continuing without soil moisture sensor\n");
-    //}
+    }
    
-    //if (stemma_soil_read_moisture(&moisture) && stemma_soil_read_temperature(&soil_temp)) {
+    if (stemma_soil_read_moisture(&moisture) && stemma_soil_read_temperature(&soil_temp)) {
         // Prepare soil moisture data structure
-      //  soil_data_t soil_data = {
-        //    .sensor_type = SENSOR_SOIL_MOISTURE,
-          //  .moisture = moisture,
-            //.temperature = soil_temp
-       // };
+        soil_data_t soil_data = {
+            .sensor_type = SENSOR_SOIL_MOISTURE,
+            .moisture = moisture,
+            .temperature = soil_temp
+        };
         
         // Send soil moisture data over UART (you would need to add this function to protocol)
         // uart_protocol_send_soil_data(&soil_data);
         
         // Check for soil moisture alerts
-        //if (moisture <= SOIL_DRY_THRESHOLD && prev_moisture > SOIL_DRY_THRESHOLD) {
-          //  uart_protocol_send_alert(ALERT_SOIL_DRY, moisture, SOIL_DRY_THRESHOLD);
-            //printf("ALERT: Soil is too dry (%d < %d)\n", moisture, SOIL_DRY_THRESHOLD);
-        //} 
-        //else if (moisture >= SOIL_WET_THRESHOLD && prev_moisture < SOIL_WET_THRESHOLD) {
-          //  uart_protocol_send_alert(ALERT_SOIL_WET, moisture, SOIL_WET_THRESHOLD);
-            //printf("ALERT: Soil is too wet (%d > %d)\n", moisture, SOIL_WET_THRESHOLD);
-        //}
+        if (moisture <= SOIL_DRY_THRESHOLD && prev_moisture > SOIL_DRY_THRESHOLD) {
+            uart_protocol_send_alert(ALERT_SOIL_DRY, moisture, SOIL_DRY_THRESHOLD);
+           // printf("ALERT: Soil is too dry (%d < %d)\n", moisture, SOIL_DRY_THRESHOLD);
+        } 
+        else if (moisture >= SOIL_WET_THRESHOLD && prev_moisture < SOIL_WET_THRESHOLD) {
+            uart_protocol_send_alert(ALERT_SOIL_WET, moisture, SOIL_WET_THRESHOLD);
+           // printf("ALERT: Soil is too wet (%d > %d)\n", moisture, SOIL_WET_THRESHOLD);
+        }
         
-       // prev_moisture = moisture;
+        prev_moisture = moisture;
         
         // Print soil data to console at a slower rate
-        //if (absolute_time_diff_us(get_absolute_time(), next_console_update) <= 0) {
-          //  printf("Soil: Moisture: %d/1000, Temperature: %.1f°C\n", moisture, soil_temp);
-        //}
-    //}
+        if (absolute_time_diff_us(get_absolute_time(), next_console_update) <= 0) {
+            //printf("Soil: Moisture: %d/1000, Temperature: %.1f°C\n", moisture, soil_temp);
+        }
+    }
     
     // Read BME680 sensor
     read_bme680_sensor();
@@ -347,13 +347,19 @@ void read_bme680_sensor(void) {
     }
     
     // In main(), after initializing I2C:
-    printf("Scanning I2C bus for BME680...\n");
+    //printf("Scanning I2C bus for BME680...\n");
     for(uint8_t addr = 0x76; addr <= 0x77; addr++) {
         uint8_t reg = BME680_ID;
         if(i2c_write_blocking(bme680_i2c, addr, &reg, 1, true) == 1 &&
            i2c_read_blocking(bme680_i2c, addr, &reg, 1, false) == 1) {
-            printf("BME680 detected at 0x%02X\n", addr);
+            //printf("BME680 detected at 0x%02X\n", addr);
         }
     }
+
+
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
 }
 
