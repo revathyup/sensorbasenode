@@ -1,16 +1,11 @@
 # SPDX-License-Identifier: Apache-2.0
 
 cmake_minimum_required(VERSION 3.20.0)
+
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(base_node)
 
-# Include the sensor driver directly in the application
-target_sources(app PRIVATE 
+target_sources(app PRIVATE
     src/main.c
-    drivers/sensor/sensor_node/sensor_node.c
-)
-
-# Add include path for the sensor driver
-target_include_directories(app PRIVATE
-    drivers/sensor/sensor_node
+    src/uart_handler.c
 )

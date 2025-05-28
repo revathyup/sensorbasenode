@@ -2,7 +2,14 @@
  * @file sensor_node.c
  * @brief Sensor driver for communicating with sensor node via UART
  */
-#define DT_DRV_COMPAT sensor_node
+#include <math.h>  // Add for isfinite()
+
+#define DT_DRV_COMPAT zephyr_sensor_node
+
+// Add initialization priority
+#if !defined(CONFIG_SENSOR_INIT_PRIORITY)
+#define CONFIG_SENSOR_INIT_PRIORITY 70
+#endif
 
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
@@ -15,7 +22,7 @@
 LOG_MODULE_REGISTER(sensor_node, LOG_LEVEL_INF);
 
 /* Protocol definitions */
-#define PROTOCOL_START_BYTE     0xAA
+#define PROTOCOL_START_BYTE     0xAA  // Change this to match sensor node
 #define PROTOCOL_MAX_DATA_LEN   64
 
 /* Command types */
@@ -24,20 +31,18 @@ LOG_MODULE_REGISTER(sensor_node, LOG_LEVEL_INF);
 #define CMD_PING           0x03
 #define CMD_ACK            0x04
 
-/* Sensor types */
-#define SENSOR_LIGHT        0x01
-#define SENSOR_TEMPERATURE  0x02
-#define SENSOR_BME680       0x03
-#define SENSOR_SOIL         0x04
+/* Sensor types - update these */
+#define SENSOR_LIGHT        0x01  // TSL2591
+#define SENSOR_TEMP         0x02  // MCP9700
+#define SENSOR_BME680       0x03  // BME680
 
 /* Buffer sizes */
 #define RX_BUFFER_SIZE 128
 #define TX_BUFFER_SIZE 64
 
-/* Custom channels */
-enum {
-    SENSOR_NODE_CHAN_SOIL_MOISTURE = SENSOR_CHAN_PRIV_START,
-    SENSOR_NODE_CHAN_GAS_RESISTANCE
+/* Custom channels - update enum */
+enum sensor_node_channels {
+    SENSOR_NODE_CHAN_GAS_RESISTANCE = SENSOR_CHAN_PRIV_START
 };
 
 /* Packet structure */
@@ -56,7 +61,6 @@ struct sensor_node_data {
     struct sensor_value humidity;
     struct sensor_value pressure;
     struct sensor_value light;
-    struct sensor_value soil_moisture;
     struct sensor_value gas_resistance;
     bool data_ready;
     
@@ -183,7 +187,7 @@ static bool read_packet(struct sensor_node_data *data, packet_t *packet)
     return true;
 }
 
-/* Process a sensor data packet - Simplified version */
+/* Process a sensor data packet - Update BME680 handling */
 static void process_sensor_data(struct sensor_node_data *data, const packet_t *packet)
 {
     if (packet->length == 0) {
@@ -193,7 +197,7 @@ static void process_sensor_data(struct sensor_node_data *data, const packet_t *p
     k_mutex_lock(&data->mutex, K_FOREVER);
 
     switch (packet->data[0]) {
-    case SENSOR_LIGHT:
+    case SENSOR_LIGHT:  // TSL2591
         if (packet->length >= 11) {
             float lux;
             memcpy(&lux, &packet->data[7], sizeof(float));
@@ -202,29 +206,66 @@ static void process_sensor_data(struct sensor_node_data *data, const packet_t *p
         }
         break;
         
+    case SENSOR_TEMP:  // MCP9700
+        if (packet->length >= sizeof(float) + 1) {
+            float temp;
+            memcpy(&temp, &packet->data[1], sizeof(float));
+            sensor_value_from_double(&data->temperature, temp);
+            LOG_DBG("MCP9700 Temp: %.1f C", (double)temp);
+        }
+        break;
+
     case SENSOR_BME680:
         if (packet->length >= sizeof(float) * 4 + 1) {
             float temp, humidity, pressure, gas;
+            
+            // Print the entire packet for debugging
+            LOG_HEXDUMP_DBG(packet->data, packet->length, "BME680 Raw Packet:");
+            LOG_DBG("Packet length: %d (expected %d)", 
+                    packet->length, sizeof(float) * 4 + 1);
+            
+            // Extract and verify each value
             memcpy(&temp, &packet->data[1], sizeof(float));
             memcpy(&humidity, &packet->data[5], sizeof(float));
             memcpy(&pressure, &packet->data[9], sizeof(float));
             memcpy(&gas, &packet->data[13], sizeof(float));
             
-            sensor_value_from_double(&data->temperature, temp);
-            sensor_value_from_double(&data->humidity, humidity);
-            sensor_value_from_double(&data->pressure, pressure);
-            sensor_value_from_double(&data->gas_resistance, gas);
+            LOG_DBG("BME680 Raw Values:");
+            LOG_DBG("  Temperature: %f", (double)temp);
+            LOG_DBG("  Humidity: %f", (double)humidity);
+            LOG_DBG("  Pressure: %f", (double)pressure);
+            LOG_DBG("  Gas: %f", (double)gas);
             
-            LOG_DBG("BME680: T=%.1f H=%.1f P=%.1f", (double)temp, (double)humidity, (double)pressure);
-        }
-        break;
-        
-    case SENSOR_SOIL:
-        if (packet->length >= sizeof(float) + 3) {
-            float percent;
-            memcpy(&percent, &packet->data[3], sizeof(float));
-            sensor_value_from_double(&data->soil_moisture, percent);
-            LOG_DBG("Soil: %.1f%%", (double)percent);
+            // Store valid values with range checks
+            if (isfinite(temp) && temp > -40.0f && temp < 85.0f) {
+                sensor_value_from_double(&data->temperature, temp);
+                LOG_INF("Temperature: %.2f C", (double)temp);
+            } else {
+                LOG_WRN("Invalid temperature: %f", (double)temp);
+            }
+            
+            if (isfinite(humidity) && humidity >= 0.0f && humidity <= 100.0f) {
+                sensor_value_from_double(&data->humidity, humidity);
+                LOG_INF("Humidity: %.2f %%", (double)humidity);
+            } else {
+                LOG_WRN("Invalid humidity: %f", (double)humidity);
+            }
+            
+            if (isfinite(pressure) && pressure >= 300.0f && pressure <= 1100.0f) {
+                sensor_value_from_double(&data->pressure, pressure);
+                LOG_INF("Pressure: %.2f hPa", (double)pressure);
+            } else {
+                LOG_WRN("Invalid pressure: %f", (double)pressure);
+            }
+            
+            if (isfinite(gas) && gas > 0.0f) {
+                sensor_value_from_double(&data->gas_resistance, gas);
+                LOG_INF("Gas resistance: %.2f Ohm", (double)gas);
+            } else {
+                LOG_WRN("Invalid gas resistance: %f", (double)gas);
+            }
+        } else {
+            LOG_WRN("BME680 data packet too short: %d", packet->length);
         }
         break;
         
@@ -236,54 +277,64 @@ static void process_sensor_data(struct sensor_node_data *data, const packet_t *p
     k_mutex_unlock(&data->mutex);
 }
 
-/* Implement the sensor_sample_fetch function for the Sensors API */
+/* Implement the sensor_sample_fetch function */
 static int sensor_node_sample_fetch(const struct device *dev, enum sensor_channel chan)
 {
     struct sensor_node_data *data = dev->data;
-    packet_t packet;
-    int timeout = 50;  /* 5 seconds timeout (50 * 100ms) */
-    bool got_data = false;
+    k_timeout_t timeout_duration = K_MSEC(500);  // Define timeout as k_timeout_t
     
-    /* Only fetch if requested channel is ALL or we have no data yet */
-    if (chan != SENSOR_CHAN_ALL && data->data_ready) {
-        return 0;
-    }
+    LOG_DBG("Fetching sensor data");
     
-    /* Send a ping packet to request data */
-    packet.start = PROTOCOL_START_BYTE;
-    packet.command = CMD_PING;
-    packet.length = 0;
-    packet.checksum = calculate_checksum(&packet);
+    k_mutex_lock(&data->mutex, K_FOREVER);
+
+    // Clear old data
+    ring_buf_reset(&data->rx_rb);
+    data->data_ready = false;
     
-    send_packet(data, &packet);
-    
-    /* Wait for response with timeout */
-    while (timeout > 0 && !got_data) {
-        /* Process any pending packets */
-        while (ring_buf_size_get(&data->rx_rb) > 3) { /* Minimum packet size */
-            if (read_packet(data, &packet)) {
-                if (packet.command == CMD_SENSOR_DATA) {
-                    process_sensor_data(data, &packet);
+    // Try up to 3 times
+    for (int retry = 0; retry < 3; retry++) {
+        // Send ping packet
+        packet_t ping = {
+            .start = PROTOCOL_START_BYTE,
+            .command = CMD_PING,
+            .length = 0,
+            .checksum = 0
+        };
+        ping.checksum = calculate_checksum(&ping);
+        
+        send_packet(data, &ping);
+        LOG_DBG("Sent ping packet, attempt %d", retry + 1);
+
+        // Wait for response with timeout
+        int64_t end_time = k_uptime_get() + k_ticks_to_ms_floor64(timeout_duration.ticks);
+        bool got_data = false;
+
+        while (k_uptime_get() < end_time) {
+            packet_t rx_packet;
+            if (read_packet(data, &rx_packet)) {
+                if (rx_packet.command == CMD_SENSOR_DATA) {
+                    process_sensor_data(data, &rx_packet);
                     got_data = true;
+                    break;
+                } else if (rx_packet.command == CMD_ACK) {
+                    LOG_DBG("Got ACK, waiting for data");
                 }
             }
+            k_sleep(K_MSEC(10));
         }
-        
+
         if (got_data) {
-            break;
+            k_mutex_unlock(&data->mutex);
+            return 0;
         }
-        
-        /* Wait a bit before checking again */
-        k_sleep(K_MSEC(100));
-        timeout--;
+
+        LOG_WRN("Retry %d failed", retry + 1);
+        k_sleep(K_MSEC(100));  // Wait before retry
     }
-    
-    if (!got_data) {
-        LOG_ERR("Sensor data fetch timeout");
-        return -ETIMEDOUT;
-    }
-    
-    return 0;
+
+    LOG_ERR("No sensor data received after 3 attempts");
+    k_mutex_unlock(&data->mutex);
+    return -ETIMEDOUT;
 }
 
 /* Implement the sensor_channel_get function for the Sensors API */
@@ -314,10 +365,6 @@ static int sensor_node_channel_get(const struct device *dev, enum sensor_channel
         
     case SENSOR_CHAN_LIGHT:
         *val = data->light;
-        break;
-        
-    case SENSOR_NODE_CHAN_SOIL_MOISTURE:
-        *val = data->soil_moisture;
         break;
         
     case SENSOR_NODE_CHAN_GAS_RESISTANCE:
@@ -373,5 +420,11 @@ static int sensor_node_init(const struct device *dev)
 static struct sensor_node_data sensor_node_data_0;
 
 /* Register the driver */
-DEVICE_DT_INST_DEFINE(0, sensor_node_init, NULL, &sensor_node_data_0, NULL,
-                    POST_KERNEL, CONFIG_SENSOR_INIT_PRIORITY, &sensor_node_api);
+DEVICE_DT_INST_DEFINE(0,
+                      sensor_node_init,
+                      NULL,
+                      &sensor_node_data_0,
+                      NULL,
+                      POST_KERNEL,
+                      CONFIG_SENSOR_INIT_PRIORITY,
+                      &sensor_node_api);

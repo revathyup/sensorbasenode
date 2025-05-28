@@ -1,0 +1,36 @@
+/*
+ * Base Node Device Tree Overlay
+ * Configures UART, I2C, and GPIO for the base node
+ */
+
+/ {
+    chosen {
+        zephyr,console = &cdc_acm_uart0;
+    };
+
+    sensor_node0: sensor-node {
+        compatible = "zephyr,sensor-node";
+        status = "okay";
+    };
+};
+
+&zephyr_udc0 {
+    cdc_acm_uart0: cdc_acm_uart0 {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
+
+&uart1 {
+    status = "okay";
+    current-speed = <115200>;
+    pinctrl-0 = <&uart1_default>;
+    pinctrl-names = "default";
+};
+
+&pinctrl {
+    uart1_default: uart1_default {
+        group1 {
+            pinmux = <UART1_TX_P8>, <UART1_RX_P9>;
+        };
+    };
+};

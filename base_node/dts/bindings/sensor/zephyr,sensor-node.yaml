@@ -1,0 +1,11 @@
+description: Sensor Node Protocol Driver
+
+compatible: "zephyr,sensor-node"
+
+include: uart-device.yaml
+
+properties:
+  label:
+    type: string
+    required: true
+    description: Human readable string describing the device

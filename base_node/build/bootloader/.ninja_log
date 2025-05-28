@@ -1,0 +1,7 @@
+# ninja log v5
+0	17	1748437866494400495	CMakeFiles/boot_stage2.dir/home/reva/zephyrproject/modules/hal/rpi_pico/src/rp2040/boot_stage2/boot2_w25q080.S.obj	3f169c8b86ac90b9
+17	432	1748437866904400439	boot_stage2	f434469021afbe4a
+17	432	1748437866904400439	boot_stage2.bin	f434469021afbe4a
+17	432	1748437866904400439	boot_stage2.S	f434469021afbe4a
+17	432	1748437866904400439	/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/boot_stage2.bin	f434469021afbe4a
+17	432	1748437866904400439	/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/boot_stage2.S	f434469021afbe4a

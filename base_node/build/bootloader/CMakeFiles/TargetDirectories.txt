@@ -1,0 +1,3 @@
+/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/boot_stage2.dir
+/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/edit_cache.dir
+/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/rebuild_cache.dir

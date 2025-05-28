@@ -1,0 +1,266 @@
+The target system is: Generic -  - 
+The host system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8fd89 && [1/2] Building C object CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc
+Target: arm-zephyr-eabi
+Configured with: /__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-zephyr-eabi --prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --exec_prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --with-local-prefix=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi --with-headers=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.17.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpc=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-isl=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --enable-lto --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Zephyr SDK 0.17.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/'
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/cc1 -quiet -v -iprefix /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/ -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8fd89.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cc9bSqjH.s
+GNU C17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include
+End of search list.
+GNU C17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 55d7a0dfde21330aa1acd31b3627ef02
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/'
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj /tmp/cc9bSqjH.s
+GNU assembler version 2.38 (arm-zephyr-eabi) using BFD version (Zephyr SDK 0.17.0) 2.38
+COMPILER_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/
+LIBRARY_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C static library libcmTC_8fd89.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include]
+  end of search list found
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/sys-include]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include]
+  implicit include dirs: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/sys-include;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-zephyr-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_8fd89 && [1/2] Building C object CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc]
+  ignore line: [Target: arm-zephyr-eabi]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-zephyr-eabi --prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --exec_prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --with-local-prefix=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi --with-headers=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.17.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpc=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-isl=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --enable-lto --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Zephyr SDK 0.17.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/']
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/cc1 -quiet -v -iprefix /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/ -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8fd89.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cc9bSqjH.s]
+  ignore line: [GNU C17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 55d7a0dfde21330aa1acd31b3627ef02]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/']
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj /tmp/cc9bSqjH.s]
+  ignore line: [GNU assembler version 2.38 (arm-zephyr-eabi) using BFD version (Zephyr SDK 0.17.0) 2.38]
+  ignore line: [COMPILER_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_8fd89.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C static library libcmTC_8fd89.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f8871 && [1/2] Building CXX object CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-c++
+Target: arm-zephyr-eabi
+Configured with: /__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-zephyr-eabi --prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --exec_prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --with-local-prefix=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi --with-headers=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.17.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpc=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-isl=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --enable-lto --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Zephyr SDK 0.17.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/'
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/cc1plus -quiet -v -iprefix /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/ -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f8871.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cc85aRae.s
+GNU C++17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include"
+ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include
+End of search list.
+GNU C++17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)
+	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8f09639fa455b196f1a2e4acfb52272a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/'
+ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc85aRae.s
+GNU assembler version 2.38 (arm-zephyr-eabi) using BFD version (Zephyr SDK 0.17.0) 2.38
+COMPILER_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/
+LIBRARY_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX static library libcmTC_f8871.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include]
+    add: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include]
+  end of search list found
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0/backward]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/sys-include]
+  collapse include dir [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include] ==> [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include]
+  implicit include dirs: [/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/12.2.0/backward;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/sys-include;/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/arm-zephyr-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-zephyr-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/reva/zephyrproject/sensorbasenode-main/base_node/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_f8871 && [1/2] Building CXX object CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-c++]
+  ignore line: [Target: arm-zephyr-eabi]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/arm-zephyr-eabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-zephyr-eabi --prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --exec_prefix=/__w/_temp/workspace/output/arm-zephyr-eabi --with-local-prefix=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi --with-headers=/__w/_temp/workspace/output/arm-zephyr-eabi/arm-zephyr-eabi/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.17.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-mpc=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --with-isl=/__w/_temp/workspace/build/.build/arm-zephyr-eabi/buildtools --enable-lto --enable-target-optspace --disable-nls --enable-multiarch --with-multilib-list=rmprofile --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Zephyr SDK 0.17.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/']
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/cc1plus -quiet -v -iprefix /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/ -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f8871.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cc85aRae.s]
+  ignore line: [GNU C++17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/../../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/arm-zephyr-eabi]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include/c++/12.2.0/backward]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/include-fixed]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/sys-include]
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Zephyr SDK 0.17.0) version 12.2.0 (arm-zephyr-eabi)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8f09639fa455b196f1a2e4acfb52272a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/']
+  ignore line: [ /home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc85aRae.s]
+  ignore line: [GNU assembler version 2.38 (arm-zephyr-eabi) using BFD version (Zephyr SDK 0.17.0) 2.38]
+  ignore line: [COMPILER_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../libexec/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/:/home/reva/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_f8871.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX static library libcmTC_f8871.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc (Zephyr SDK 0.17.0) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

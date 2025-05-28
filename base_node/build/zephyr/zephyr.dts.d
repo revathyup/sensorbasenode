@@ -29,4 +29,4 @@ empty_file.o: /home/reva/zephyrproject/zephyr/misc/empty_file.c \
  /home/reva/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/../common/rpi_pico-pinctrl-common.dtsi \
  /home/reva/zephyrproject/zephyr/include/zephyr/dt-bindings/pwm/pwm.h \
  /home/reva/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/../common/rpi_pico-led.dtsi \
- /home/reva/zephyrproject/sensorbasenode-main/base_node/app.overlay
+ /home/reva/zephyrproject/sensorbasenode-main/base_node/boards/rpi_pico.overlay

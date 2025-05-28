@@ -1,10 +1,18 @@
 # Copyright (c) 2023
 # SPDX-License-Identifier: Apache-2.0
 
-config SENSOR_NODE
-	bool "Sensor Node UART-based sensor driver"
-	depends on UART && SERIAL
+menuconfig SENSOR_NODE
+	bool "Sensor Node Driver"
+	depends on SERIAL
 	help
-	  Enable driver for sensor node that communicates over UART.
-	  This driver implements a sensor that fetches data from a remote
-	  sensor node via a serial protocol.
+	  Enable sensor node driver that communicates over UART
+
+if SENSOR_NODE
+
+config SENSOR_NODE_INIT_PRIORITY
+	int "Init priority"
+	default 90
+	help
+	  Sensor node initialization priority
+
+endif # SENSOR_NODE

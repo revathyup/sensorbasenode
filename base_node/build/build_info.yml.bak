@@ -1,0 +1,4 @@
+west:
+  command: /home/reva/zephyrproject/.venv/bin/west build -b rpi_pico --pristine
+  topdir: /home/reva/zephyrproject
+  version: 1.3.0

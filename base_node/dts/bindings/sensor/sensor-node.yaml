@@ -1,0 +1,10 @@
+description: Sensor Node Protocol
+
+compatible: "sensor-node"
+
+include: uart-device.yaml
+
+properties:
+  label:
+    type: string
+    description: Human readable string describing the device

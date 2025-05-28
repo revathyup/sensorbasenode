@@ -1,0 +1,16 @@
+description: Sensor Node UART Protocol
+
+compatible: "sensor-node"
+
+include: uart-device.yaml
+
+properties:
+  label:
+    required: true
+    type: string
+    description: Human readable string describing the device
+
+  status:
+    required: true
+    type: string
+    description: Device status ("okay" or "disabled")

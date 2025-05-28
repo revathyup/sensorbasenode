@@ -1,5 +1,59 @@
+cmake:
+  application:
+    configuration-dir: '/home/reva/zephyrproject/sensorbasenode-main/base_node'
+    source-dir: '/home/reva/zephyrproject/sensorbasenode-main/base_node'
+  board:
+    name: 'rpi_pico'
+    path:
+     - '/home/reva/zephyrproject/zephyr/boards/raspberrypi/rpi_pico'
+    qualifiers: 'rp2040'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/dts/bindings'
+     - '/home/reva/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/reva/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/rpi_pico.dts'
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/boards/rpi_pico.overlay'
+    include-dirs:
+     - '/home/reva/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/reva/zephyrproject/modules/hal/atmel/include'
+     - '/home/reva/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/reva/zephyrproject/modules/hal/microchip/include'
+     - '/home/reva/zephyrproject/modules/hal/microchip/dts'
+     - '/home/reva/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/reva/zephyrproject/modules/hal/nxp/dts'
+     - '/home/reva/zephyrproject/modules/hal/stm32/dts'
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/dts'
+     - '/home/reva/zephyrproject/zephyr/include'
+     - '/home/reva/zephyrproject/zephyr/include/zephyr'
+     - '/home/reva/zephyrproject/zephyr/dts/common'
+     - '/home/reva/zephyrproject/zephyr/dts/x86'
+     - '/home/reva/zephyrproject/zephyr/dts/xtensa'
+     - '/home/reva/zephyrproject/zephyr/dts/sparc'
+     - '/home/reva/zephyrproject/zephyr/dts/riscv'
+     - '/home/reva/zephyrproject/zephyr/dts/posix'
+     - '/home/reva/zephyrproject/zephyr/dts/nios2'
+     - '/home/reva/zephyrproject/zephyr/dts/arm64'
+     - '/home/reva/zephyrproject/zephyr/dts/arm'
+     - '/home/reva/zephyrproject/zephyr/dts/arc'
+     - '/home/reva/zephyrproject/zephyr/dts'
+    user-files:
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/boards/rpi_pico.overlay'
+  kconfig:
+    files:
+     - '/home/reva/zephyrproject/zephyr/boards/raspberrypi/rpi_pico/rpi_pico_defconfig'
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/prj.conf'
+    user-files:
+     - '/home/reva/zephyrproject/sensorbasenode-main/base_node/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/reva/zephyr-sdk-0.17.0'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: '/home/reva/zephyrproject/zephyr'
+version: '0.1.0'
 west:
-  command: /home/reva/zephyrproject/.venv/bin/west build -b rpi_pico /home/reva/zephyrproject/sensorbasenode-main/base_node
-    --pristine
-  topdir: /home/reva/zephyrproject
-  version: 1.3.0
+  command: '/home/reva/zephyrproject/.venv/bin/west build -b rpi_pico --pristine'
+  topdir: '/home/reva/zephyrproject'
+  version: '1.3.0'
