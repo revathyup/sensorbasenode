@@ -79,10 +79,14 @@ int main() {
     // Initialize sensors
     printf("Initializing sensors...\n");
     
-    // Initialize TSL2591 light sensor
+     // Initialize TSL2591 light sensor
     printf("Initializing TSL2591 light sensor...\n");
     if (!tsl2591_init(i2c)) {
         printf("Failed to initialize TSL2591 light sensor!\n");
+    } else {
+        // Start with medium gain for indoor lighting
+        tsl2591_set_gain(TSL2591_GAIN_428X);
+        tsl2591_set_integration_time(TSL2591_INTEGRATIONTIME_100);
     }
     
     // Initialize MCP9700 temperature sensor
