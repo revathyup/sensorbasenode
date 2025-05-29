@@ -239,36 +239,50 @@
      if ((ch0 == 0xFFFF) || (ch1 == 0xFFFF)) {
          return -1.0;
      }
-     
-     // Calculate lux based on channel readings and sensor configuration
-     // based on the application notes for TSL2591
-     float atime, again;
-     
-     // Calculate the actual integration time in seconds
-     atime = 100.0 * (current_integration_time + 1) / 1000.0;
-     
+
+     // Calculate the actual integration time in milliseconds (not seconds)
+     float atime = 100.0f * (current_integration_time + 1);
+
      // Calculate the actual gain multiplier
+     float again;
      switch (current_gain) {
-         case TSL2591_GAIN_1X:    again = 1.0;   break;
-         case TSL2591_GAIN_25X:   again = 25.0;  break;
-         case TSL2591_GAIN_428X:  again = 428.0; break;
-         case TSL2591_GAIN_9876X: again = 9876.0; break;
-         default:                 again = 1.0;   break;
+         case TSL2591_GAIN_1X:    again = 1.0f;    break;
+         case TSL2591_GAIN_25X:   again = 25.0f;   break;
+         case TSL2591_GAIN_428X:  again = 428.0f;  break;
+         case TSL2591_GAIN_9876X: again = 9876.0f; break;
+         default:                 again = 1.0f;    break;
      }
-     
-     // Calculate lux using the formula from TSL2591 datasheet
-     // Simplified formula: Lux = (C0 - C1) * CPL
-     // where CPL (counts per lux) depends on integration time and gain
-     // Use more conservative coefficients for indoor lighting
-     float cpl = (atime * again) / 20.0;
-     float lux = (((float)ch0 - (float)ch1)) * (1.0 / cpl);
-     
-     // Cap maximum lux for indoor environments
-     if (lux > 5000.0f) {
-         lux = 5000.0f;
+
+     // Calculate CPL (counts per lux) using datasheet formula
+     float cpl = (atime * again) / 408.0f;  // 408.0 is the recommended datasheet value
+
+     // Prevent division by zero
+     if (cpl < 0.001f) {
+         cpl = 0.001f;
      }
-     
-     // Ensure lux is not negative
+
+     // Calculate lux using TSL2591 datasheet formula
+     float lux1 = ((float)ch0 - (1.64f * (float)ch1)) / cpl;
+     float lux2 = ((0.59f * (float)ch0) - (0.86f * (float)ch1)) / cpl;
+     float lux = lux1 > lux2 ? lux1 : lux2;
+
+     // Debug output to help diagnose readings
+     printf("DEBUG: ch0=%u, ch1=%u, atime=%.1f, again=%.1f, cpl=%.3f, raw_lux=%.2f\n", 
+            ch0, ch1, atime, again, cpl, lux);
+
+     // Reasonable bounds for indoor lighting
+     if (lux > 1000.0f) {
+         // If reading is too high, adjust gain
+         if (current_gain > TSL2591_GAIN_1X) {
+             tsl2591_set_gain(current_gain >> 1);  // Decrease gain
+             printf("Light too bright, decreasing gain\n");
+         }
+         lux = 1000.0f;
+     } else if (lux < 1.0f && current_gain < TSL2591_GAIN_9876X) {
+         // If reading is too low, adjust gain
+         tsl2591_set_gain(current_gain << 1);  // Increase gain
+         printf("Light too dim, increasing gain\n");
+     }
+
      return (lux < 0) ? 0 : lux;
  }
- 
